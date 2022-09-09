@@ -1,0 +1,11 @@
+extra large array runtime: insert 1.0359s, append 3.4071ms
+tiny array: insert 44.2us, append 90.4us
+small array: insert 56.1us, append 110.1 us
+medium array: insert 327.4us, append 303.2us
+large array: insert 13.0144ms, append 654us
+
+as the arrays got bigger the runtimes took longer to finish, the extra large array
+should have taken around half a second to 3/4s of a second and the append took way longer
+than any of the other arrays it is definitely the slowest the reason why it could be slower is because it 
+has to run a bigger array than any of the other functions. the tiny and small functions were the fastest because 
+they didnt have to push such a high number.
